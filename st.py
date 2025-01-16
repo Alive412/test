@@ -17,6 +17,6 @@ class VideoProcessor:
 
 webrtc_streamer(key="key", video_processor_factory=VideoProcessor,
 				rtc_configuration=RTCConfiguration(
-					{"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
+					{"iceServers": [{"urls": ["stun:stun4.l.google.com:19302"]}]}
 					)
 	)
